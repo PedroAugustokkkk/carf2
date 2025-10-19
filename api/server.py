@@ -16,7 +16,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-VERCEL_FRONTEND_URL = os.environ.get("CORS_ORIGIN", "https://carf-insight-ai.vercel.app") 
+VERCEL_FRONTEND_URL = os.environ.get("CORS_ORIGIN", "https://carf-insight-ai-git-main-israels-projects-3a9d9c42.vercel.app/") 
 
 # Lista de origens permitidas:
 origins = [
