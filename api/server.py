@@ -16,13 +16,13 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# Configuração do CORS (Crucial para o Front-end)
-# Permite o Front-end (ex: localhost:8080 ou a URL do Ngrok) acessar o Back-end
+VERCEL_FRONTEND_URL = os.environ.get("CORS_ORIGIN", "https://carf-insight-ai.vercel.app") 
+
+# Lista de origens permitidas:
 origins = [
-    "http://localhost",
-    "http://localhost:8080",  # Porta padrão do Front-end Vite
-    "http://127.0.0.1:8080",
-    "*" # Permite qualquer origem durante o Hackathon para evitar bugs de rede
+    VERCEL_FRONTEND_URL, # O domínio do Vercel
+    "http://localhost:3000", # Para desenvolvimento local (seu e do seu colega)
+    "http://localhost:8000"  # Caso precisem de outra porta local
 ]
 
 # Adiciona o middleware CORS
