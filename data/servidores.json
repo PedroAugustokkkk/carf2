@@ -1,0 +1,41 @@
+[
+  {
+    "id": 101,
+    "nome": "Maria Silva Santos",
+    "funcao": "Analista Tributária",
+    "unidade": "CARF/DF",
+    "vinculo": "Servidor Efetivo",
+    "competencias_concluidas_percentual": 72,
+    "competencias_principais": [
+      "Direito Tributário",
+      "Análise Processual",
+      "Gestão de Recursos"
+    ],
+    "lacunas_identificadas": [
+      {"competencia": "Comunicação Instrucional", "lacuna_percentual": 35, "peso": 0.8},
+      {"competencia": "Gestão de Projetos", "lacuna_percentual": 28, "peso": 0.7},
+      {"competencia": "Direito Administrativo", "lacuna_percentual": 25, "peso": 0.6},
+      {"competencia": "Gestão de Pessoas", "lacuna_percentual": 22, "peso": 0.5},
+      {"competencia": "Análise Tributária", "lacuna_percentual": 18, "peso": 0.4}
+    ],
+    "trilhas_em_andamento": [
+      {"nome": "Gestão Tributária Avançada", "conclusao": 69, "color": "hsl(var(--chart-1))"},
+      {"nome": "Inovação no Serviço Público", "conclusao": 52, "color": "hsl(var(--chart-2))"},
+      {"nome": "Liderança e Desenvolvimento", "conclusao": 30, "color": "hsl(var(--chart-4))"}
+    ],
+    "engajamento_mensal": [
+      {"mes": "Jan", "engajamento": 45},
+      {"mes": "Fev", "engajamento": 52},
+      {"mes": "Mar", "engajamento": 58},
+      {"mes": "Abr", "engajamento": 63},
+      {"mes": "Mai", "engajamento": 69},
+      {"mes": "Jun", "engajamento": 72}
+    ],
+    "metricas_gerais": {
+      "total_servidores": 1247,
+      "competencias_mapeadas": 156,
+      "lacunas_identificadas": 342,
+      "taxa_engajamento": "72%"
+    }
+  }
+]
