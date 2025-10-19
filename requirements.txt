@@ -8,4 +8,4 @@ pydantic==2.8.2
 gTTS==1.2.2
 PyPDF2==3.0.1      # Para PDFs
 python-docx==1.1.0 # Para .docx
-pandas==2.2.2      # Para Excel/CSV
+pandas==2.1.4     # Para Excel/CSV
